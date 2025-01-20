@@ -1,20 +1,14 @@
-# Quilt_Blog
-这是一个功能完善，页面精美，基于SSM架构的个人博客系统
-
-
-
-## 博客页面截图
-![登录页面](/images/登录页面.png)
-![](/images/首页.png)
-![](/images/首页标签.png)
-![](/images/首页分类.png)
-![](/images/文章线功能.png)
-![](/images/文章详情页面.png)
-![](/images/搜索功能.png)
-![](/images/后台总管理页面.png)
-![](/images/编辑文章页面.png)
-![](/images/所有文章列表表示.png)
-![](/images/访问页面.png)
-![](/images/标签页面.png)
-![](/images/分类页面.png)
-![](/images/日志页面.png)
+使用springboot框架搭建的路内泊车管理系统，实现基本停车流程，对数据可以增删改查
+用户端页面
+![image](https://github.com/user-attachments/assets/885e36e9-d77e-4a7f-9b6e-8cd7441616e1)
+![image](https://github.com/user-attachments/assets/38dd60b3-59ef-44d7-b937-1ea00711f637)
+![image](https://github.com/user-attachments/assets/a9606f69-ad44-43bb-837f-4e686a5cdab0)
+![image](https://github.com/user-attachments/assets/bd48b4e6-3879-49db-a5dc-e0556d94c154)
+![image](https://github.com/user-attachments/assets/f0e47884-453b-4f28-8586-5393486a9f36)
+![image](https://github.com/user-attachments/assets/aaae0335-e9fb-4d3c-87aa-acc26b91753f)
+![image](https://github.com/user-attachments/assets/b2a81c11-101c-4b13-aa57-16a9033f24a7)
+管理端
+![image](https://github.com/user-attachments/assets/121c35de-69f1-4c34-90ce-0e7b7cdaa574)
+![image](https://github.com/user-attachments/assets/20ddc8c0-5bb3-4b80-9ebc-ff35acd2eb64)
+![image](https://github.com/user-attachments/assets/950ae6e0-05b4-4369-8ca0-f12af4b41e53)
+![image](https://github.com/user-attachments/assets/0700cad8-e4b3-48d6-9d42-f0d6a0462925)
