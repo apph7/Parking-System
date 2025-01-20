@@ -1,0 +1,89 @@
+/* ==============screen silder =========*/
+.container{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-attachment: fixed;
+}
+.slide.current{
+    opacity: 1;
+}
+/* 图片设置 */
+.slide:first-child{
+    background: url('../img/8643851.jpg') no-repeat center center/cover;
+}
+/* .slide:first-child::before{
+      首页动画
+} */
+.slide:nth-child(2){
+    background: url('../img/myUeImg.png') no-repeat center center/cover;
+}
+.slide:nth-child(3){
+    background: url('../img/peak.jpg') no-repeat center center/cover;
+}
+
+/* 文本框 */
+.slide .content{
+    position: absolute;
+    bottom: 70px;
+    width: 600px;
+    opacity: 0;
+    background: rgba(255,255, 255, 0.8);
+    color: black;
+    padding: 35px;
+}
+.slide .content h1{
+    margin-bottom: 10px;
+}
+
+/* 过渡和转换好像不大行 所以我采用动画*/
+
+.slide.current .content{
+    opacity: 1;
+    animation-name: contents;
+    animation-duration: 2s;
+}
+/* 动画 */
+@keyframes contents {
+    from{
+        opacity: 0;
+        transform: translateX(-600px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.buttons button#prev{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+}
+.buttons button#next{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+}
+.buttons button{
+    /* color: #fff; */
+    background-color: transparent;
+    /* padding: 13px 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}

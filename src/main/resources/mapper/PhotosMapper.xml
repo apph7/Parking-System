@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.quilt.dao.PhotosDAO">
+    <resultMap id="BaseResultMap" type="com.quilt.entity.Photos">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <id column="photo_id" jdbcType="INTEGER" property="photoId" />
+        <result column="photo_name" jdbcType="VARCHAR" property="photoName" />
+        <result column="photo_pic" jdbcType="VARCHAR" property="photoPic" />
+    </resultMap>
+    <sql id="Base_Column_List">
+    id,photo_name, photo_pic
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from photos
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from photos
+    where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.quilt.entity.Photos">
+    insert into photos (id, photo_id,photo_name, photo_pic)
+    values (#{id,jdbcType=INTEGER}, #{photoId,jdbcType=INTEGER},#{photoName,jdbcType=VARCHAR}, #{photoPic,jdbcType=VARCHAR}})
+    </insert>
+    <insert id="insertSelective" parameterType="com.quilt.entity.Photos">
+        insert into photos
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="photoName != null">
+                photo_name,
+            </if>
+            <if test="photoPic != null">
+                photo_pic,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="photoName != null">
+                #{photoName,jdbcType=VARCHAR},
+            </if>
+            <if test="photoPic != null">
+                #{photoPic,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.quilt.entity.Photos">
+        update photos
+        <set>
+            <if test="photoId != null">
+                photo_id = #{photoId,jdbcType=INTEGER},
+            </if>
+            <if test="photoName != null">
+                photo_name = #{photoName,jdbcType=VARCHAR},
+            </if>
+            <if test="photoPic != null">
+                photo_pic = #{photoPic,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.quilt.entity.Photos">
+    update photo
+        set photo_id = #{photoId,jdbcType=INTEGER}
+      photo_name = #{photoName,jdbcType=VARCHAR},
+      photo_pic = #{photoPic,jdbcType=VARCHAR},
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+    <select id="getAllPhotos" resultMap="BaseResultMap" >
+    select  * from  photos
+  </select>
+
+    <select id="getPhotoCount" resultType="java.lang.Integer">
+    select count(*) from photos
+    </select>
+
+
+</mapper>

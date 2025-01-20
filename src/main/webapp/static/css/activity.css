@@ -1,0 +1,59 @@
+.activityTitleBox{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 24px;
+    width: 80%;
+    min-height: 90px;
+    background: #fcffff;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    box-shadow: 0 0 1.8rem -0.2rem rgb(132 208 253 / 30%);
+  }
+  .activityTitleBox .atit {
+    background: linear-gradient(to right,#2184cb,#2db1ba);
+    height: 100%;
+    min-height: 90px;
+    width: 300px;
+    -webkit-clip-path: polygon(0 0,96%0,74% 100%,0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:3rem;
+    color: #fff;
+    font-weight:100;
+    font-size: calc(24px + .2vw);
+    position: relative;
+  }
+  .activityTitleBox .atit p{
+    -webkit-box-reflect:below -7px -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.5));  
+  }
+  .atype{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 19px;
+    color: #999999;
+  }
+  .a_arrow{
+    color: #2db1ba;
+  }
+  .atype_item{
+    min-width: 100px;
+    min-height: 100%;
+  }
+  .atype_item:hover{
+    color: #2db1ba;
+  }
+  .atype_item.active{
+    color: #2db1ba;
+  }

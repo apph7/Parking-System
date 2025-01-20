@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Quilt:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a567d21-6141-4020-9458-ae57d546f77d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Quilt_Blog" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2da8mjgPhD60QdDeEAvk9UNRwPV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/23986/Downloads/Quilt_Blog&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.validation&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;aa01b28a7e1e938a690d73b701a08f76&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.quilt.servlet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\WEB-INF\jsp\common" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\WEB-INF\jsp\User" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\static\aaa" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\static" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\WEB-INF\jsp\common\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\WEB-INF\jsp\home" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\static\aaa" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\static\common" />
+      <recent name="C:\Users\23986\OneDrive\桌面\Quilt_Blog\src\main\webapp\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Quilt_Blog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Quilt_Blog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.79" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.79" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Quilt_war/login" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Quilt:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Quilt_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ef108e12-d0b4-4c94-9d6f-aff199ace1b5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53575" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a567d21-6141-4020-9458-ae57d546f77d" name="Changes" comment="" />
+      <created>1710234993107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710234993107</updated>
+      <workItem from="1710234993637" duration="800000" />
+      <workItem from="1710242309182" duration="1720000" />
+      <workItem from="1710244060199" duration="2200000" />
+      <workItem from="1710246508688" duration="62000" />
+      <workItem from="1710246593428" duration="261000" />
+      <workItem from="1710248801530" duration="786000" />
+      <workItem from="1710250265295" duration="188000" />
+      <workItem from="1710333457586" duration="1110000" />
+      <workItem from="1710395845682" duration="12653000" />
+      <workItem from="1710411946413" duration="5710000" />
+      <workItem from="1710418007813" duration="912000" />
+      <workItem from="1710586689645" duration="6828000" />
+      <workItem from="1710593666545" duration="613000" />
+      <workItem from="1710600181311" duration="504000" />
+      <workItem from="1710673395667" duration="3404000" />
+      <workItem from="1710676847549" duration="781000" />
+      <workItem from="1710677643477" duration="265000" />
+      <workItem from="1710677951108" duration="62000" />
+      <workItem from="1710678993584" duration="231000" />
+      <workItem from="1710827856044" duration="4555000" />
+      <workItem from="1710833735450" duration="5389000" />
+      <workItem from="1710839166081" duration="1342000" />
+      <workItem from="1710842571584" duration="3400000" />
+      <workItem from="1710856782166" duration="615000" />
+      <workItem from="1710932587122" duration="3160000" />
+      <workItem from="1711002512973" duration="10734000" />
+      <workItem from="1711439460448" duration="5959000" />
+      <workItem from="1711445816318" duration="499000" />
+      <workItem from="1711462876314" duration="2432000" />
+      <workItem from="1711465325773" duration="350000" />
+      <workItem from="1711605996311" duration="12164000" />
+      <workItem from="1711618386430" duration="56000" />
+      <workItem from="1711621407035" duration="1691000" />
+      <workItem from="1711623227867" duration="3109000" />
+      <workItem from="1711636412474" duration="531000" />
+      <workItem from="1711675763934" duration="75000" />
+      <workItem from="1711713002923" duration="2285000" />
+      <workItem from="1711878717811" duration="10232000" />
+      <workItem from="1711889265415" duration="5738000" />
+      <workItem from="1711945196809" duration="8289000" />
+      <workItem from="1711979346747" duration="2879000" />
+      <workItem from="1712037287302" duration="6325000" />
+      <workItem from="1712044033459" duration="487000" />
+      <workItem from="1712044984222" duration="892000" />
+      <workItem from="1712049547454" duration="318000" />
+      <workItem from="1712642590338" duration="10578000" />
+      <workItem from="1712816035820" duration="11045000" />
+      <workItem from="1712827163637" duration="624000" />
+      <workItem from="1712839369854" duration="2943000" />
+      <workItem from="1712843109498" duration="4000" />
+      <workItem from="1712843267050" duration="121000" />
+      <workItem from="1712846342710" duration="86000" />
+      <workItem from="1712846867322" duration="622000" />
+      <workItem from="1712848257827" duration="14000" />
+      <workItem from="1712848438984" duration="1017000" />
+      <workItem from="1712852832613" duration="149000" />
+      <workItem from="1712928497874" duration="452000" />
+      <workItem from="1712929017727" duration="3096000" />
+      <workItem from="1713079859514" duration="665000" />
+      <workItem from="1713080603083" duration="361000" />
+      <workItem from="1713090483932" duration="22000" />
+      <workItem from="1713251391850" duration="72000" />
+      <workItem from="1713252380679" duration="827000" />
+      <workItem from="1713271497345" duration="871000" />
+      <workItem from="1736176010269" duration="435000" />
+      <workItem from="1736176488936" duration="5000" />
+      <workItem from="1736177925915" duration="1444000" />
+      <workItem from="1736213558742" duration="9408000" />
+      <workItem from="1736223024366" duration="7250000" />
+      <workItem from="1736230867097" duration="1694000" />
+      <workItem from="1736239633063" duration="160000" />
+      <workItem from="1736239856754" duration="705000" />
+      <workItem from="1736240573966" duration="6378000" />
+      <workItem from="1736247205135" duration="222000" />
+      <workItem from="1736476563416" duration="5946000" />
+      <workItem from="1736482539088" duration="134000" />
+      <workItem from="1736482686639" duration="965000" />
+      <workItem from="1736494573987" duration="7461000" />
+      <workItem from="1736502070905" duration="1315000" />
+      <workItem from="1736505063938" duration="3649000" />
+      <workItem from="1736508742544" duration="3620000" />
+      <workItem from="1736513657991" duration="2343000" />
+      <workItem from="1736516054249" duration="2070000" />
+      <workItem from="1736518141034" duration="3359000" />
+      <workItem from="1736574376619" duration="11978000" />
+      <workItem from="1736592958874" duration="1346000" />
+      <workItem from="1736603577504" duration="3070000" />
+      <workItem from="1736661526086" duration="7322000" />
+      <workItem from="1736669573439" duration="11951000" />
+      <workItem from="1736688292386" duration="2269000" />
+      <workItem from="1736690578374" duration="7893000" />
+      <workItem from="1736698641261" duration="396000" />
+      <workItem from="1736736442910" duration="18014000" />
+      <workItem from="1736762418472" duration="290000" />
+      <workItem from="1736774453183" duration="8856000" />
+      <workItem from="1736783649963" duration="61000" />
+      <workItem from="1736825246496" duration="21380000" />
+      <workItem from="1736849605223" duration="3028000" />
+      <workItem from="1736860672738" duration="1240000" />
+      <workItem from="1736909952499" duration="7350000" />
+      <workItem from="1736919048661" duration="5061000" />
+      <workItem from="1736936275935" duration="1890000" />
+      <workItem from="1737004415963" duration="6506000" />
+      <workItem from="1737013664212" duration="4318000" />
+      <workItem from="1737082658419" duration="16616000" />
+      <workItem from="1737118823861" duration="2948000" />
+      <workItem from="1737173443059" duration="1247000" />
+      <workItem from="1737181860308" duration="506000" />
+      <workItem from="1737189083352" duration="508000" />
+      <workItem from="1737194224739" duration="115000" />
+      <workItem from="1737285847592" duration="1854000" />
+      <workItem from="1737290926211" duration="269000" />
+      <workItem from="1737301098509" duration="52000" />
+      <workItem from="1737301210896" duration="695000" />
+      <workItem from="1737301949229" duration="656000" />
+      <workItem from="1737302627126" duration="19000" />
+      <workItem from="1737302805219" duration="185000" />
+      <workItem from="1737303030761" duration="10000" />
+      <workItem from="1737303163120" duration="88000" />
+      <workItem from="1737303599768" duration="43000" />
+      <workItem from="1737341061540" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

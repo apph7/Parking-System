@@ -1,0 +1,276 @@
+.heavyGuest {
+    background: url('https://www.gcsis.cn/img/index_bg4.jpg') no-repeat top center/100%;
+    padding: 0 0 2rem;
+}
+.guestContent{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+.guestTitleBox{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 24px;
+  }
+  .guestTitleBox .gtit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:3rem;
+    color: #fff;
+    font-weight:100;
+    font-size: calc(24px + .2vw);
+    position: relative;
+  }
+  .guestTitleBox .gtit p{
+    -webkit-box-reflect:below -7px -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.5));  
+  }
+
+
+  /* 人物照片 */
+  .guestImgBox{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  /* .guestImgBox .clear {
+    clear: both;
+  } */
+  .guestImgBox img {
+    max-width: 100%;
+    border: 0px;
+  }
+  .guestImgBox ul,
+  .guestImgBox ol {
+    list-style: none;
+  }
+  .guestImgBox a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+  }
+  .guestImgBox a:focus,
+  .guestImgBox a:active,
+  .guestImgBox a:visited,
+  .guestImgBox a:hover {
+    text-decoration: none;
+    outline: none;
+  }
+  .guestImgBox a:hover {
+    color: #e73700;
+  }
+  .guestImgBox h2 {
+    margin-bottom: 48px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+  }
+  .guestImgBox h3 {
+    margin: 0 0 10px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .guestImgBox button {
+    outline: none !important;
+  }
+ 
+  
+  /******* Middle section CSS Start ******/
+  /* -------- Landing page ------- */
+  .game-section {
+    padding: 0px 50px;
+    padding-top: 200px;
+  }
+  .game-section .owl-stage {
+    margin: 15px 0;
+    display: flex;
+    display: -webkit-flex;
+  }
+  .game-section .item {
+    margin: 0 15px 60px;
+    width: 320px;
+    height: 400px;
+    max-width: 320px;
+    display: flex;
+    display: -webkit-flex;
+    flex: 1;
+    flex-shrink: 0;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    background: #343434 no-repeat center center / cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 16px;
+
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  .game-section .item.active {
+    flex-shrink: 0;
+    box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+  }
+  .game-section .item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  }
+  .game-section .item-desc {
+    padding: 0 24px 12px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(calc(100% - 54px));
+    -webkit-transform: translateY(calc(100% - 54px));
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+  }
+  .game-section .item.active .item-desc {
+    transform: none;
+    -webkit-transform: none;
+  }
+  .game-section .item-desc p {
+    opacity: 0;
+    -webkit-transform: translateY(32px);
+    transform: translateY(32px);
+    transition: all 0.4s ease-in-out 0.2s;
+    -webkit-transition: all 0.4s ease-in-out 0.2s;
+  }
+  .game-section .item.active .item-desc p {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  .custom-carousel{
+    width: 200%;
+    display: flex;
+    overflow: hidden;
+    transition: transform 3s ease-in-out;
+  }
+  .custom-carousel .item{
+    width: auto;
+  }
+  .custom-carousel .item.active{
+    width: auto;
+  }
+  .custom-carousel.trunRight{
+    transform: translateX(-50%);
+    transition: transform 3s ease-in-out;
+  }
+  /******** Middle section CSS End *******/
+  
+  /***** responsive css Start ******/
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .guestImgBox h2 {
+      margin-bottom: 32px;
+    }
+    .guestImgBox h3 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    /* -------- Landing page ------- */
+    .game-section {
+      padding: 50px 30px;
+    }
+    .game-section .item {
+      margin: 0 12px 60px;
+      width: 260px;
+      height: 360px;
+    }
+    .game-section .item.active {
+      width: 400px;
+    }
+    .game-section .item-desc {
+      transform: translateY(calc(100% - 46px));
+      -webkit-transform: translateY(calc(100% - 46px));
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .guestImgBox h2 {
+      margin-bottom: 32px;
+    }
+    .guestImgBox h3 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+  
+    /* -------- Landing page ------- */
+    .game-section {
+      padding: 50px 30px 40px;
+    }
+    .game-section .item {
+      margin: 0 12px 60px;
+      width: 240px;
+      height: 330px;
+    }
+    .game-section .item.active {
+      width: 360px;
+    }
+    .game-section .item-desc {
+      transform: translateY(calc(100% - 42px));
+      -webkit-transform: translateY(calc(100% - 42px));
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .guestImgBox {
+      font-size: 14px;
+    }
+    .guestImgBox h2 {
+      margin-bottom: 20px;
+    }
+    .guestImgBox h3 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      line-height: 24px;
+    }
+
+  
+    /* -------- Landing page ------- */
+    .game-section {
+      padding: 30px 15px 20px;
+    }
+    .game-section .item {
+      margin: 0 10px 40px;
+      width: 200px;
+      height: 280px;
+    }
+    .game-section .item.active {
+      width: 270px;
+      box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+      -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+    .game-section .item-desc {
+      padding: 0 14px 5px;
+      transform: translateY(calc(100% - 42px));
+      -webkit-transform: translateY(calc(100% - 42px));
+    }
+  }
+  

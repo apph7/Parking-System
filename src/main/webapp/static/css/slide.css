@@ -1,0 +1,334 @@
+
+.navigation {
+position: absolute;
+width: 100%;
+height: 100px;
+padding: 0 100px;
+display: flex;  
+align-items: center;
+justify-content: space-between;
+z-index: 1;
+} 
+.activity{
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+position: relative;
+}
+/*It will be a full-screen slider so we set it to position absolute.*/
+.css-slider-wrapper {
+display: block;
+width: 100%;
+height: 100%;
+}
+.slider {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 1;
+z-index: 0;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+align-content: center;
+-webkit-transition: -webkit-transform 1600ms;
+transition: -webkit-transform 1600ms, transform 1600ms;
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+
+
+.slide-1 {
+left: 0;
+}
+.slide-2 {
+left: 100%
+}
+.slide-3 {
+left: 200%
+}
+.slide-4 {
+left: 300%;
+}
+.slide-5 {
+left: 400%
+}
+.slide-6 {
+    left: 500%;
+}
+.slider {
+display: flex;
+justify-content: flex-start;
+}
+.slider-content {
+width: 90%; 
+padding-left: 100px;
+}
+
+.slider h2 {
+color: #333333;
+font-weight: 900;
+text-transform: capitalize;
+font-size: 55px;
+font-weight: 600;
+line-height: 1.2;
+opacity: 0;
+-webkit-transform: translateY(100px);
+transform: translateY(100px);
+margin:0;
+margin-top: 0;
+letter-spacing: 2px;
+display: inline-block;
+}
+
+.slider h2 span{ 
+height: 30px;
+background: -webkit-linear-gradient(left, #772bf3 0%,#772bf3 26%,#2989d8 62%,#334cf4 100%);
+background: linear-gradient(to right, #772bf3 0%,#772bf3 26%,#2989d8 62%,#334cf4 100%);
+position: absolute;
+bottom: 18px;
+left: -2pc;  
+padding: 0;
+Z-INDEX: -1;
+}
+
+.slider h4 {
+width: 60%;
+font-size: 22px;
+
+color: rgba(51, 51, 51, 0.349);
+font-weight: bold;
+text-transform: uppercase;
+text-align: justify;  
+line-height: 1.2;
+opacity: 0;
+-webkit-transform: translateY(100px);
+transform: translateY(100px);
+}
+.slider h2 {
+-webkit-transition: opacity 800ms, -webkit-transform 800ms;
+transition: transform 800ms, opacity 800ms;
+-webkit-transition-delay: 1.4s; 
+transition-delay: 1.4s;
+}
+.slider h2 span{   
+-webkit-transition: opacity 800ms,padding 2s;
+transition: padding 2s, opacity 800ms;
+-webkit-transition-delay: 2s; 
+transition-delay: 2s;   
+}
+.slider h4 {
+-webkit-transition: opacity 800ms, -webkit-transform 800ms;
+transition: transform 800ms, opacity 800ms;
+-webkit-transition-delay: 1.2s;
+transition-delay: 1.2s;
+}
+/* .slider > img {
+-webkit-transition: opacity 800ms, -webkit-transform 800ms;
+transition: transform 800ms, opacity 800ms;
+-webkit-transition-delay: 1s; 
+transition-delay: 1s;
+}  */
+.date-pagination {
+position: absolute;
+bottom: 30px;
+font-weight: bold;
+border-top-color: #fff;
+border-top-width: 3px;
+border-top-style: solid;
+opacity: 0;
+
+-ms-transform: translateX(-100px) rotate(-90deg);
+-webkit-transform: translateX(-100px) rotate(-90deg); 
+transform: translateX(-100px) rotate(-90deg); 
+-webkit-transition: opacity 800ms, -webkit-transform 800ms;
+transition: transform 800ms, opacity 800ms;
+-webkit-transition-delay: 1s; 
+transition-delay: 1s;
+}
+
+.date-pagination { 
+bottom: 90px;
+}
+
+.date-pagination span{
+font-size: 16px;
+color: #fff;
+letter-spacing: 4px;
+position: relative;
+left: 40px;
+top: -15px;
+}
+.date-pagination span { 
+left: 180px;
+}
+/*Awesome! Now, style the slider pagination.*/
+/* Slider Pagger */
+.wula{
+position: absolute;
+bottom: 30px;
+opacity: 0;
+}
+.slider-pagination {
+opacity: 0;
+position: absolute;
+bottom: 30px;
+width: 575px;
+left: 100px;
+z-index: 13;
+display: flex;
+align-items: center;
+}
+.slider-pagination label {
+width: 8px;
+height: 8px;
+border-radius: 50%;
+display: inline-block;
+background: #fff;
+margin: 0 10px;
+cursor: pointer;
+} 
+
+.slide-radio1:checked ~ .slider-pagination .page1,
+.slide-radio2:checked ~ .slider-pagination .page2,
+.slide-radio3:checked ~ .slider-pagination .page3,
+.slide-radio4:checked ~ .slider-pagination .page4,
+.slide-radio5:checked ~ .slider-pagination .page5,
+.slide-radio6:checked ~ .slider-pagination .page6 {
+width: 14px;
+height: 14px;
+border: 2px solid #ea2e49;
+background: transparent;
+}
+
+
+.slide-radio1:checked ~ .slide-1 .date-pagination,
+ .slide-radio2:checked ~ .slide-2 .date-pagination,
+ .slide-radio3:checked ~ .slide-3 .date-pagination,
+ .slide-radio4:checked ~ .slide-4 .date-pagination,
+ .slide-radio5:checked ~ .slide-5 .date-pagination,
+ .slide-radio6:checked ~ .slide-6 .date-pagination {
+opacity:1; 
+transform:translateX(0px); 
+transform: rotate(-90deg);
+color: #fff;
+}
+.slide-radio1:checked ~ .slider { 
+-webkit-transform: translateX(0%);
+transform: translateX(0%);
+}
+.slide-radio2:checked ~ .slider {
+-webkit-transform: translateX(-100%);
+transform: translateX(-100%);
+}
+.slide-radio3:checked ~ .slider {
+-webkit-transform: translateX(-200%);
+transform: translateX(-200%);
+}
+.slide-radio4:checked ~ .slider {
+-webkit-transform: translateX(-300%);
+transform: translateX(-300%);
+}
+.slide-radio5:checked ~ .slider {
+    -webkit-transform: translateX(-400%);
+    transform: translateX(-400%);
+}
+.slide-radio6:checked ~ .slider {
+    -webkit-transform: translateX(-500%);
+    transform: translateX(-500%);
+}
+.slide-radio1:checked ~ .slide-1 h2,
+.slide-radio2:checked ~ .slide-2 h2,
+.slide-radio3:checked ~ .slide-3 h2,
+.slide-radio4:checked ~ .slide-4 h2,
+.slide-radio5:checked ~ .slide-5 h2,
+.slide-radio6:checked ~ .slide-6 h2,
+.slide-radio1:checked ~ .slide-1 h4,
+.slide-radio2:checked ~ .slide-2 h4,
+.slide-radio3:checked ~ .slide-3 h4,
+.slide-radio5:checked ~ .slide-5 h4,
+.slide-radio6:checked ~ .slide-6 h4,
+.slide-radio4:checked ~ .slide-4 h4{
+-webkit-transform: translateY(0);
+transform: translateY(0);
+opacity: 1; 
+color: #fff;
+}
+
+.slide-radio1:checked ~ .slide-1 h2 span,
+.slide-radio2:checked ~ .slide-2 h2 span,
+.slide-radio3:checked ~ .slide-3 h2 span,
+.slide-radio4:checked ~ .slide-4 h2 span,
+.slide-radio5:checked ~ .slide-5 h2 span,
+.slide-radio6:checked ~ .slide-6 h2 span{     
+padding: 0 55%;
+opacity: 1;
+}
+
+/* Responsive */
+ @media only screen and (max-width: 886px) {
+.slider h2 {
+font-size: 45px;
+}
+.slider h2 span {
+height: 20px; 
+bottom: 10px;
+}
+} 
+
+@media only screen and (max-width: 768px) {
+.slider h2 {
+font-size: 24px;
+}
+.slider h2 span {
+height: 13px; 
+bottom: 6px;
+left: -1pc;
+}
+
+.slider h4 {
+font-size: 16px;
+}
+
+.slider-content {
+width: 90%;
+padding-left: 100px;
+}
+.slider-pagination {
+left: 2%;
+}
+
+} 
+
+@media all and (max-width: 460px) {
+.slider h2 {
+font-size: 16px;
+}
+.slider h2 span {
+height: 8px;
+bottom: 4px;
+left: -1pc;
+}
+
+.slider h4 {
+font-size: 12px;
+}
+} 
+@media all and (max-width: 365px) {
+.slider h2 {
+font-size: 14px;
+}
+.slider h2 span {
+height: 5px;
+bottom: 4px;
+left: -1pc;
+}
+
+.slider h4 {
+font-size: 12px;
+}
+}

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.test.UserTest" time="0.004" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2023.1.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\23986\OneDrive\桌面\Quilt_Blog"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\23986\OneDrive\桌面\Quilt_Blog"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\23986\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="E:\IntelliJ IDEA 2022.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="E:\IntelliJ IDEA 2022.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\23986\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Windows\System32;E:\Git\cmd;E:\IntelliJ IDEA 2022.3.2\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Git LFS;E:\Matlab\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS;C:\WINDOWS\System32\OpenSSH;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\23986\AppData\Local\Programs\Python\Launcher\;C:\Users\23986\AppData\Local\Microsoft\WindowsApps;E:\CLion 2022.3.2\CLion 2023.2.2\bin;;E:\PyCharm 2023.3.2\bin;;E:\IntelliJ IDEA 2022.3.2\apache-tomcat-10.1.19-windows-x64\apache-tomcat-10.1.19\bin;%CATALINA_HOME%\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\Users\23986\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;C:\Program Files\nodejs;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="E:\IntelliJ IDEA 2022.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\23986"/>
+    <property name="user.timezone" value="GMT+08:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="梦一场"/>
+    <property name="java.class.path" value="E:\IntelliJ IDEA 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;E:\IntelliJ IDEA 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;E:\IntelliJ IDEA 2022.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.6 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\IntelliJ IDEA 2022.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.test.UserTest" name="test" time="0.004">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0&apos;: Invocation of init method failed; nested exception is java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@31c269fd]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 31 more
+Caused by: java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@31c269fd]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+	at org.springframework.web.context.support.WebApplicationObjectSupport.getWebApplicationContext(WebApplicationObjectSupport.java:112)
+	at org.springframework.web.context.support.WebApplicationObjectSupport.getServletContext(WebApplicationObjectSupport.java:128)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.initContentNegotiationStrategy(ResourceHttpRequestHandler.java:306)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.afterPropertiesSet(ResourceHttpRequestHandler.java:268)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 46 more
+</error>
+    <system-out>20:49:02.527 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity
+20:49:02.527 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: Article.class
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ArticleCategory.class
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ArticleTag.class
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ArticleWithBLOBs.class
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: Category.class
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: Comment.class
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: Log.class
+20:49:02.528 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ParkingRecord.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: Photos.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: PhotosWithBLOBs.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: Tag.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: User.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: UserWithBLOBs.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: Visitor.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Listing file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Article.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Article.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;S
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ArticleCategory.class
+20:49:02.529 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ArticleCategory.class
+20:49:02.530 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#29;
+20:49:02.530 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ArticleTag.class
+20:49:02.530 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ArticleTag.class
+20:49:02.530 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#29;
+20:49:02.530 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ArticleWithBLOBs.class
+20:49:02.530 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ArticleWithBLOBs.class
+20:49:02.531 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;%
+20:49:02.531 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Category.class
+20:49:02.531 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Category.class
+20:49:02.531 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;:
+20:49:02.531 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Comment.class
+20:49:02.531 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Comment.class
+20:49:02.531 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;I
+20:49:02.532 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Log.class
+20:49:02.532 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Log.class
+20:49:02.532 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;T
+20:49:02.532 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ParkingRecord.class
+20:49:02.532 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/ParkingRecord.class
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;V
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Photos.class
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Photos.class
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;%
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/PhotosWithBLOBs.class
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/PhotosWithBLOBs.class
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;%
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Tag.class
+20:49:02.533 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Tag.class
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;:
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/User.class
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/User.class
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;p
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/UserWithBLOBs.class
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/UserWithBLOBs.class
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;%
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Find JAR URL: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Visitor.class
+20:49:02.534 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Not a JAR: file:/C:/Users/23986/OneDrive/%e6%a1%8c%e9%9d%a2/Quilt_Blog/target/classes/com/quilt/entity/Visitor.class
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;5
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.Article matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.ArticleCategory matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.ArticleTag matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.ArticleWithBLOBs matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.Category matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.Comment matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.Log matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.ParkingRecord matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.Photos matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.PhotosWithBLOBs matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.Tag matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.User matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.UserWithBLOBs matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.quilt.entity.Visitor matches criteria [is assignable to Object]
+20:49:02.535 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Scanned package: &apos;com.quilt.entity&apos; for aliases
+20:49:02.543 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed configuration file: &apos;class path resource [mybatis/mybatis-config.xml]&apos;
+20:49:02.548 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\ArticleCategoryMapper.xml]&apos;
+20:49:02.554 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\ArticleMapper.xml]&apos;
+20:49:02.559 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\ArticleTagMapper.xml]&apos;
+20:49:02.563 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\CategoryMapper.xml]&apos;
+20:49:02.568 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\CommentMapper.xml]&apos;
+20:49:02.571 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\LogMapper.xml]&apos;
+20:49:02.576 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\PhotosMapper.xml]&apos;
+20:49:02.580 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\TagMapper.xml]&apos;
+20:49:02.584 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\UserMapper.xml]&apos;
+20:49:02.588 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [C:\Users\23986\OneDrive\����\Quilt_Blog\target\classes\mapper\VisitorMapper.xml]&apos;
+</system-out>
+    <system-err>һ�� 19, 2025 8:49:02 ���� org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+��Ϣ: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+һ�� 19, 2025 8:49:02 ���� org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+��Ϣ: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f99f5e0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6aa61224, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@30bce90b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e6f3f28, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7e19ebf0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2474f125]
+һ�� 19, 2025 8:49:02 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [spring/spring.xml]
+һ�� 19, 2025 8:49:02 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+һ�� 19, 2025 8:49:02 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [spring/spring-service.xml]
+һ�� 19, 2025 8:49:02 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [spring/spring-web.xml]
+һ�� 19, 2025 8:49:02 ���� org.springframework.context.support.GenericApplicationContext prepareRefresh
+��Ϣ: Refreshing org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/write]}&quot; onto public java.lang.String com.quilt.controller.admin.ArticleController.getWriteArticlePage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/all]}&quot; onto public java.lang.String com.quilt.controller.admin.ArticleController.getAllArticlesPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/edit/{id}]}&quot; onto public java.lang.String com.quilt.controller.admin.ArticleController.getEditArticlePage(javax.servlet.http.HttpSession,java.lang.Integer,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/delete/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.ArticleController.deleteArticle(javax.servlet.http.HttpSession,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/write/new]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.ArticleController.writeNewArticle(javax.servlet.http.HttpSession,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.multipart.MultipartFile,java.lang.Integer,java.lang.Integer,java.lang.Integer[],java.lang.Integer[])
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/mod/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.ArticleController.modArticle(javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.multipart.MultipartFile,java.lang.Integer,java.lang.Integer,java.lang.Integer[],java.lang.Integer[])
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/category/add]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.CategoryController.addCategory(javax.servlet.http.HttpSession,java.lang.String,java.lang.Integer,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/category/delete/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.CategoryController.deleteCategory(javax.servlet.http.HttpSession,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/category]}&quot; onto public java.lang.String com.quilt.controller.admin.CategoryController.getCategoryPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/category/edit_category]}&quot; onto public java.lang.String com.quilt.controller.admin.CategoryController.editCategory(javax.servlet.http.HttpSession,org.springframework.ui.Model,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/category/mod/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.CategoryController.modCategory(javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/comment/all]}&quot; onto public java.lang.String com.quilt.controller.admin.CommentController.getAllCommentPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/comment/reply]}&quot; onto public java.lang.String com.quilt.controller.admin.CommentController.getReplyPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/comment/mod/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.CommentController.modReply(javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/comment/addreply/{id}]}&quot; onto public java.lang.String com.quilt.controller.admin.CommentController.getAddReplyPage(javax.servlet.http.HttpSession,org.springframework.ui.Model,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/comment/add]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.CommentController.addReply(javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/comment/delete/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.CommentController.deleteComment(javax.servlet.http.HttpSession,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/comment/modreply/{id}]}&quot; onto public java.lang.String com.quilt.controller.admin.CommentController.getModReplyPage(javax.servlet.http.HttpSession,org.springframework.ui.Model,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/index]}&quot; onto public java.lang.String com.quilt.controller.admin.IndexController.getIndexPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/console]}&quot; onto public java.lang.String com.quilt.controller.admin.IndexController.getConsolePage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/log/delete/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.LogController.deleteLogRecord(javax.servlet.http.HttpSession,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/log/index]}&quot; onto public java.lang.String com.quilt.controller.admin.LogController.getLogPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/tag/edit_tag]}&quot; onto public java.lang.String com.quilt.controller.admin.TagController.editTag(java.lang.Integer,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/tag/mod/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.TagController.modTag(javax.servlet.http.HttpSession,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/tag]}&quot; onto public java.lang.String com.quilt.controller.admin.TagController.getTagPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/tag/delete/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.TagController.deleteTag(javax.servlet.http.HttpSession,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/article/tag/add]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.TagController.deleteTag(javax.servlet.http.HttpSession,java.lang.String,java.lang.String,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/file/upload]}&quot; onto public java.util.Map com.quilt.controller.admin.UploadController.fileUpload(javax.servlet.http.HttpSession,org.springframework.web.multipart.MultipartFile)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/user/logout]}&quot; onto public java.lang.String com.quilt.controller.admin.UserController.logout(javax.servlet.http.HttpSession)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/user/getUserHeadPic]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.UserController.getUserHeadPic()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/user/password/mod]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.UserController.modPasswordAndUsername(javax.servlet.http.HttpSession,java.lang.String,java.lang.String,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/user/password]}&quot; onto public java.lang.String com.quilt.controller.admin.UserController.getModifyPasswordPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/user/info]}&quot; onto public java.lang.String com.quilt.controller.admin.UserController.getUserInfoPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/user/info/mod]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.UserController.modUserInfo(javax.servlet.http.HttpSession,org.springframework.web.multipart.MultipartFile,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/visitor/delete/{id}]}&quot; onto public com.quilt.dto.Result com.quilt.controller.admin.VistitorController.deleteVisitorRecord(javax.servlet.http.HttpSession,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/visitor/index]}&quot; onto public java.lang.String com.quilt.controller.admin.VistitorController.getVisitorPage(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/search]}&quot; onto public com.quilt.dto.Result com.quilt.controller.home.HomeController.getArticleListByTitle(java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/categories]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getCategoriesPage(org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/category/timeline/{id}]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getCategoryTimelinePage(org.springframework.ui.Model,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/tag/timeline/{id}]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getTagTimelinePage(org.springframework.ui.Model,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getIndexPage(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/tags]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getTagsPage(org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/about]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getAboutPage(org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/detail/{id}]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getAboutPage(org.springframework.ui.Model,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/archives]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getArchivesPage(org.springframework.ui.Model)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/{pageNo}]}&quot; onto public java.lang.String com.quilt.controller.home.HomeController.getArticlePage(org.springframework.ui.Model,java.lang.Integer)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_bulletin]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_bulletinPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/parking_record]}&quot; onto public java.lang.String com.quilt.controller.LoginController.parking_recordPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_add_bulletin]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_add_bulletinPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_add_user]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_add_userPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_vehicles]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_vehiclesPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_add_vehicles]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_add_vehiclesPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_add_spot]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_add_spotPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin]}&quot; onto public java.lang.String com.quilt.controller.LoginController.getadminPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/payment]}&quot; onto public java.lang.String com.quilt.controller.LoginController.paymentPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_payment]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_paymentPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/message]}&quot; onto public java.lang.String com.quilt.controller.LoginController.messagePage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/login]}&quot; onto public java.lang.String com.quilt.controller.LoginController.getLoginPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/user_info]}&quot; onto public java.lang.String com.quilt.controller.LoginController.user_infoPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_user]}&quot; onto public java.lang.String com.quilt.controller.LoginController.user_addPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/parking_spot]}&quot; onto public java.lang.String com.quilt.controller.LoginController.parking_spotPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/recharge]}&quot; onto public java.lang.String com.quilt.controller.LoginController.rechargePage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/User/console]}&quot; onto public java.lang.String com.quilt.controller.LoginController.consolePage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/User/index]}&quot; onto public java.lang.String com.quilt.controller.LoginController.User_indexPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/1]}&quot; onto public java.lang.String com.quilt.controller.LoginController.getLoginPage43()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/userspot]}&quot; onto public java.lang.String com.quilt.controller.LoginController.userspotPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/showparking]}&quot; onto public java.lang.String com.quilt.controller.LoginController.showparkingPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/map]}&quot; onto public java.lang.String com.quilt.controller.LoginController.getLoginPage25()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/uservehicles]}&quot; onto public java.lang.String com.quilt.controller.LoginController.uservehiclesPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/admin/check]}&quot; onto public com.quilt.dto.Result com.quilt.controller.LoginController.loginCheck(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,java.lang.String,java.lang.String)
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_record]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_recordPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/account]}&quot; onto public java.lang.String com.quilt.controller.LoginController.useraccountPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/spot_use]}&quot; onto public java.lang.String com.quilt.controller.LoginController.spot_usePage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/test]}&quot; onto public java.lang.String com.quilt.controller.LoginController.getLoginPage41()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/vehicles]}&quot; onto public java.lang.String com.quilt.controller.LoginController.vehiclesPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/userpayment]}&quot; onto public java.lang.String com.quilt.controller.LoginController.userpaymentPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/userrecord]}&quot; onto public java.lang.String com.quilt.controller.LoginController.userrecordPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/bulletin]}&quot; onto public java.lang.String com.quilt.controller.LoginController.bulletinPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/detail]}&quot; onto public java.lang.String com.quilt.controller.LoginController.detailPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/edit_spot]}&quot; onto public java.lang.String com.quilt.controller.LoginController.edit_spotPage()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/index]}&quot; onto public java.lang.String com.quilt.controller.LoginController.getLoginPage42()
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+��Ϣ: Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+һ�� 19, 2025 8:49:02 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+��Ϣ: Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+һ�� 19, 2025 8:49:03 ���� org.springframework.context.support.GenericApplicationContext refresh
+����: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0&apos;: Invocation of init method failed; nested exception is java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@31c269fd]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+һ�� 19, 2025 8:49:03 ���� org.springframework.test.context.TestContextManager prepareTestInstance
+����: Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@30bce90b] to prepare test instance [com.test.UserTest@372b0d86]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0&apos;: Invocation of init method failed; nested exception is java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@31c269fd]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 31 more
+Caused by: java.lang.IllegalStateException: WebApplicationObjectSupport instance [ResourceHttpRequestHandler [locations=[class path resource [static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@31c269fd]]] does not run in a WebApplicationContext but in: org.springframework.context.support.GenericApplicationContext@7357a011: startup date [Sun Jan 19 20:49:02 GMT+08:00 2025]; root of context hierarchy
+	at org.springframework.web.context.support.WebApplicationObjectSupport.getWebApplicationContext(WebApplicationObjectSupport.java:112)
+	at org.springframework.web.context.support.WebApplicationObjectSupport.getServletContext(WebApplicationObjectSupport.java:128)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.initContentNegotiationStrategy(ResourceHttpRequestHandler.java:306)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.afterPropertiesSet(ResourceHttpRequestHandler.java:268)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 46 more
+
+</system-err>
+  </testcase>
+</testsuite>

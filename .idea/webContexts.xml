@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/404/index.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/404" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404/index.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404_and_index/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404_and_index" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/User/account.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/User" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity/Activity.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/all_articles.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/comment.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/console.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/edit_articles.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/news.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login_or_register/user.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login_or_register" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test/test.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/agenda/ConferenceAgenda.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/agenda" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/agenda/ConferenceAgenda.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/agenda" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/agenda/expert.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/agenda" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/exciting-activity/ac.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/exciting-activity" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/expand/expand.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/expand" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/home/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/home" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/media/media.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/xihu/media" />
+      </map>
+    </option>
+  </component>
+</project>
